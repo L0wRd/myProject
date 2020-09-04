@@ -1,0 +1,23 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://192.168.36.128:27017/test
+
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 14
+
+  rabbitmq:
+    host: live-mq.jindashi.cn
+    port: 5672
+    username: live-server
+    password: XU9DUEhbC3KvSsqbii03
+    virtual-host: jds_im
+
+com:
+  hxf:
+    team: NIP
+    game: csgo
+
