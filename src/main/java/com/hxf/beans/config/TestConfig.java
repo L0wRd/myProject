@@ -1,7 +1,8 @@
-package com.hxf.beans;
+package com.hxf.beans.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 /**
  * @author: hxf
@@ -10,5 +11,6 @@ import org.springframework.context.annotation.Configuration;
  */
 @ComponentScan(value = "com.hxf.beans")
 @Configuration
+@EnableAspectJAutoProxy(proxyTargetClass = true)
 public class TestConfig {
 }

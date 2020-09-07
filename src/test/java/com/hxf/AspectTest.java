@@ -1,6 +1,6 @@
 package com.hxf;
 
-import com.hxf.service.TestService;
+import com.hxf.beans.service.TestService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +21,6 @@ public class AspectTest {
 
     @Test
     public void test() {
-        testService.print("Dk", "hxf", 26);
+//        testService.print("hxf");
     }
 }
